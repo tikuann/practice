@@ -1,6 +1,15 @@
 {
+    "build": {
+        "@saveall": true
+    },
     "extensions": {
         "@json.schemas": []
+    },
+    "find.nak": {
+        "@searchLimit": 100
+    },
+    "instance": {
+        "@automaticShutdown": "30"
     },
     "language": {
         "tern_defs": {
